@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "jiberu", "jiberu.esproj", "{2EB7DCC5-6E42-43D9-A2A2-A071EE3BB20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jiberu-Backend", "..\jiberu-Backend\jiberu-Backend.csproj", "{F154B48A-12C0-4D39-A2A9-62B658C5467B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB7DCC5-6E42-43D9-A2A2-A071EE3BB20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB7DCC5-6E42-43D9-A2A2-A071EE3BB20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB7DCC5-6E42-43D9-A2A2-A071EE3BB20C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2EB7DCC5-6E42-43D9-A2A2-A071EE3BB20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB7DCC5-6E42-43D9-A2A2-A071EE3BB20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB7DCC5-6E42-43D9-A2A2-A071EE3BB20C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F154B48A-12C0-4D39-A2A9-62B658C5467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F154B48A-12C0-4D39-A2A9-62B658C5467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F154B48A-12C0-4D39-A2A9-62B658C5467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F154B48A-12C0-4D39-A2A9-62B658C5467B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6796275-27A3-4420-8F1F-4FE7E49D9604}
+	EndGlobalSection
+EndGlobal
