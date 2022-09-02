@@ -1,2 +1,3 @@
 # jiber-core
-![jiberu](https://user-images.githubusercontent.com/60620893/188124117-6f67adb7-f6b9-4f73-9121-d23e7e7a96d3.svg)
+
+![jiberu](https://user-images.githubusercontent.com/60620893/188124190-fd2cd345-c2a0-4f3a-8c5e-994fc66a935b.png)
