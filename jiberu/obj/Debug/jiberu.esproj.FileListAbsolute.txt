@@ -1,2 +1,0 @@
-C:\Users\77761\Documents\GitHub\jiber-core\jiberu\obj\Debug\jiberu.esproj.SuggestedBindingRedirects.cache
-C:\Users\77761\Documents\GitHub\jiber-core\jiberu\obj\Debug\jiberu.esproj.CoreCompileInputs.cache
