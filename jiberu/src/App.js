@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 export default class App extends Component {
     static displayName = App.name;
@@ -39,13 +40,19 @@ export default class App extends Component {
 
     render() {
         let contents = this.state.loading
-            ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
+          ? <div class="loading">
+              <svg class="loadsvg" viewBox="0 0 50 50">
+                <circle class="ring" cx="25" cy="25" r="20"></circle>
+                <circle class="ball" cx="25" cy="5" r="3.5"></circle>
+              </svg>
+              <p><em>Loading...</em></p>
+            </div>
             : App.renderForecastsTable(this.state.forecasts);
 
         return (
             <div>
-                <h1 id="tabelLabel" >Weather forecast</h1>
-                <p>This component demonstrates fetching data from the server.</p>
+                {/*<h1 id="tabelLabel" >Weather forecast</h1>*/}
+                <p>Hello World</p>
                 {contents}
             </div>
         );

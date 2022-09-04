@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+svg {
+    width: 7em;
+    animation: 1.5s spin ease infinite;
+}
+
+.ring {
+    fill: none;
+    stroke: #dddada;
+    stroke-width: 2;
+}
+
+.ball {
+    fill: #3C7987;
+    stroke: none;
+}
+.loading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
